@@ -7,7 +7,7 @@ export default function HomeScreen() {
     <View className="flex-1 items-center justify-center bg-white">
       <Text className="text-xl mb-4 text-center">Choose a Game</Text>
       <GameCard title="Game 1" linkTo="/game1" />
-      <GameCard title="Game 2" linkTo="/game2" />
+      <GameCard title="Hangman" linkTo="/game2" />
     </View>
   );
 }

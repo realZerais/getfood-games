@@ -1,11 +1,13 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, StatusBar, useColorScheme } from 'react-native';
+import Hangman from '../src/hangman'
 
-export default function Game2() {
+export default function HangmanGame() {
+  const isDarkMode = useColorScheme() === 'dark';
   return (
-    <View className="flex-1 items-center justify-center bg-white">
-      <Text className="text-2xl mb-4">Game 2</Text>
-      <Text className="text-xl mb-4">Coming Soon!</Text>
+    <View className="flex-1 items-center justify-center bg-black">
+      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+      <Hangman />
     </View>
   );
 }
