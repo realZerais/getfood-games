@@ -2,9 +2,8 @@
 
 # Game 1: Guessing Game
 
-# (details go here)
 
-# Game 2: Spin the wheel
+# Game 2: Hangman
 
-# Game 3: Hangman
+# Game 3: 
 

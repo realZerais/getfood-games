@@ -4,10 +4,13 @@ import { GameCard } from './components/GameCard';
 
 export default function HomeScreen() {
   return (
-    <View className="flex-1 items-center justify-center bg-white">
-      <Text className="text-xl mb-4 text-center">Choose a Game</Text>
-      <GameCard title="Game 1" linkTo="/game1" />
-      <GameCard title="Hangman" linkTo="/game2" />
+    <View className="flex-1 items-center justify-start bg-white">
+      <Text className="text-xl mb-4 text-center font-bold mt-5">Grab Food Games</Text>
+      <GameCard title="Guessing Game" linkTo="/GuessingGame" />
+      <GameCard title="Hangman" linkTo="/Hangman" />
+      <GameCard title="Spin The Wheel" linkTo="/SpinTheWheel" />
+      <GameCard title="Scratch Game" linkTo="/ScratchGame" />
     </View>
   );
 }
+

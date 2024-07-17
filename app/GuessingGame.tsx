@@ -72,7 +72,7 @@ const Game: React.FC = () => {
           {['easy', 'medium', 'hard'].map((level) => (
             <TouchableOpacity
               key={level}
-              className="bg-blue-500 p-4 mb-2 rounded"
+              className="bg-red-600 p-4 mb-2 rounded"
               onPress={() => startGame(level as Level)}
             >
               <Text className="text-white text-center capitalize">{level}</Text>
@@ -88,7 +88,7 @@ const Game: React.FC = () => {
             {numbers.map((num) => (
               <TouchableOpacity
                 key={num}
-                className="bg-blue-500 p-4 m-2 rounded"
+                className="bg-red-600 p-4 m-2 rounded"
                 onPress={() => handleGuess(num)}
               >
                 <Text className="text-white text-center">{num}</Text>
