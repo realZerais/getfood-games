@@ -9,14 +9,14 @@ interface Vegetable {
 const vegetables: Vegetable[] = [
   { name: 'Tomato', image: require('../assets/foods/Tomato.png') },
   { name: 'Apple_Green', image: require('../assets/foods/Apple_Green.png') },
-  // { name: 'Banana_Peeled', image: require('../assets/foods/Banana_Peeled.png') },
-  // { name: 'Blueberry', image: require('../assets/foods/Blueberry.png') },
-  // { name: 'Cabbage', image: require('../assets/foods/Cabbage.png') },
-  // { name: 'Carrot', image: require('../assets/foods/Carrot.png') },
-  // { name: 'Cauliflower', image: require('../assets/foods/Cauliflower.png') },
-  // { name: 'Cherry', image: require('../assets/foods/Cherry.png') },
-  // { name: 'Corn', image: require('../assets/foods/Corn.png') },
-  // { name: 'Pumpkin', image: require('../assets/foods/Pumpkin.png') },
+  { name: 'Banana_Peeled', image: require('../assets/foods/Banana_Peeled.png') },
+  { name: 'Blueberry', image: require('../assets/foods/Blueberry.png') },
+  { name: 'Cabbage', image: require('../assets/foods/Cabbage.png') },
+  { name: 'Carrot', image: require('../assets/foods/Carrot.png') },
+  { name: 'Cauliflower', image: require('../assets/foods/Cauliflower.png') },
+  { name: 'Cherry', image: require('../assets/foods/Cherry.png') },
+  { name: 'Corn', image: require('../assets/foods/Corn.png') },
+  { name: 'Pumpkin', image: require('../assets/foods/Pumpkin.png') },
 ];
 
 const duplicateVegetables: Vegetable[] = [...vegetables, ...vegetables];
