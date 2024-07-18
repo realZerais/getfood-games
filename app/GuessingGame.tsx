@@ -72,10 +72,10 @@ const Game: React.FC = () => {
           {['easy', 'medium', 'hard'].map((level) => (
             <TouchableOpacity
               key={level}
-              className="bg-red-600 p-4 mb-2 rounded"
+              className="border p-4 mb-2 rounded"
               onPress={() => startGame(level as Level)}
             >
-              <Text className="text-white text-center capitalize">{level}</Text>
+              <Text className="text-black text-center capitalize">{level}</Text>
             </TouchableOpacity>
           ))}
         </View>
