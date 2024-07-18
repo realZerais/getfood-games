@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "guessing-game",
-    "slug": "guessing-game",
+    "name": "Get Food Games",
+    "slug": "get-food-games",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zerais.getfoodgames"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.zerais.getfoodgames"
     },
     "web": {
       "bundler": "metro",
@@ -37,8 +39,9 @@
         "origin": false
       },
       "eas": {
-        "projectId": "1911b345-0313-4d21-aa56-dd522bf353b7"
+        "projectId": "5d8e2402-26a1-48ad-ab0f-561f6017dcbf"
       }
-    }
+    },
+    "owner": "zerais"
   }
 }
