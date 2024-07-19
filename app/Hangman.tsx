@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StatusBar, useColorScheme } from 'react-native';
-import Hangman from '../src/hangman'
+import Hangman from './hangman/index'
 
 export default function HangmanGame() {
   const isDarkMode = useColorScheme() === 'dark';

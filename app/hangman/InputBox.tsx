@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
-import colors from '../common/colors';
+import colors from '../../common/colors';
 
 interface Props {
   correctLetters: string[]; // Assuming correctLetters is an array of strings

@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 import Svg, { Ellipse, G, Line, Rect } from 'react-native-svg'; // Import Line directly
-import colors from '../common/colors';
+import colors from '../../common/colors';
 
 interface Props {
   wrongWord: number; // Define the type of wrongWord as number

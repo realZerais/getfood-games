@@ -1,9 +1,9 @@
 import { StyleSheet, Text, View, Modal, Image, TouchableOpacity, GestureResponderEvent } from 'react-native';
 import React from 'react';
 import * as Animatable from 'react-native-animatable';
-import colors from '../common/colors';
-import winImg from '../assets/win.png';
-import loseImg from '../assets/lose.png';
+import colors from '../../common/colors';
+import winImg from '../../assets/hangman/win.png';
+import loseImg from '../../assets/hangman/lose.png';
 
 interface Props {
   status: 'win' | 'completed' | 'lost' | ''; // Define the possible values for status

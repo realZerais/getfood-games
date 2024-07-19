@@ -1,6 +1,6 @@
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import React, { useReducer } from 'react';
-import colors from '../common/colors';
+import colors from '../../common/colors';
 
 interface WordData {
   word: string;
