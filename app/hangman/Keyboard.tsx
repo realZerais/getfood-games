@@ -1,6 +1,6 @@
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
-import colors from '../common/colors'
+import colors from '../../common/colors'
 
 interface KeyProps {
   text: string;
