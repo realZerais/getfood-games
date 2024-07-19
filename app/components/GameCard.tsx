@@ -10,7 +10,7 @@ type GameCardProps = {
 export const GameCard: React.FC<GameCardProps> = ({ title, linkTo }) => {
   return (
     <Link href={linkTo} asChild>
-      <TouchableOpacity className="border p-4 rounded-md my-2 w-3/4" >
+      <TouchableOpacity className="border p-4 rounded-md mt-6 w-3/4" >
         <Text className="text-lg" style={{
           color: 'black',
           fontSize: 18,
