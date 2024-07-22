@@ -14,7 +14,8 @@ export default function HomeScreen() {
         <GameCard title="Spin The Wheel" linkTo="/SpinTheWheel" />
         <GameCard title="Scratch Game" linkTo="/ScratchGame" />
         <GameCard title="Match The Vegetables" linkTo="/MemoryMatch" />
-      </View>
+        <GameCard title="Food Typing Race" linkTo="/FoodTypingRace" />
+      </View> 
   
     </>
   );

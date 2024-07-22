@@ -1,0 +1,133 @@
+[
+    {
+      "image": "../assets/foods/Apple_Green.png",
+      "name": "Green Apple",
+      "hint": "A crisp, tart fruit that's often green"
+    },
+    {
+      "image": "../assets/foods/Banana_Peeled.png",
+      "name": "Peeled Banana",
+      "hint": "A yellow fruit that's often peeled before eating"
+    },
+    {
+      "image": "../assets/foods/Blueberry.png",
+      "name": "Blueberry",
+      "hint": "A small, round fruit that's blue in color"
+    },
+    {
+      "image": "../assets/foods/Cabbage.png",
+      "name": "Cabbage",
+      "hint": "A leafy green, red, or white vegetable"
+    },
+    {
+      "image": "../assets/foods/Carrot.png",
+      "name": "Carrot",
+      "hint": "A long, orange vegetable that's often crunchy"
+    },
+    {
+      "image": "../assets/foods/Cauliflower.png",
+      "name": "Cauliflower",
+      "hint": "A white, cruciferous vegetable that resembles broccoli"
+    },
+    {
+      "image": "../assets/foods/Cherry.png",
+      "name": "Cherry",
+      "hint": "A small, round, red fruit with a pit"
+    },
+    {
+      "image": "../assets/foods/Chili_Red.png",
+      "name": "Red Chili",
+      "hint": "A small, spicy red pepper"
+    },
+    {
+      "image": "../assets/foods/Corn.png",
+      "name": "Corn",
+      "hint": "A yellow vegetable often eaten on the cob"
+    },
+    {
+      "image": "../assets/foods/Cucumber.png",
+      "name": "Cucumber",
+      "hint": "A long, green vegetable often used in salads"
+    },
+    {
+      "image": "../assets/foods/Eggplant.png",
+      "name": "Eggplant",
+      "hint": "A purple vegetable also known as aubergine"
+    },
+    {
+      "image": "../assets/foods/Grapes_Black.png",
+      "name": "Black Grapes",
+      "hint": "Small, round, black fruit often found in clusters"
+    },
+    {
+      "image": "../assets/foods/Leek.png",
+      "name": "Leek",
+      "hint": "A vegetable related to onions, with a mild flavor"
+    },
+    {
+      "image": "../assets/foods/Lemon.png",
+      "name": "Lemon",
+      "hint": "A yellow, sour citrus fruit"
+    },
+    {
+      "image": "../assets/foods/Onion.png",
+      "name": "Onion",
+      "hint": "A vegetable with a strong flavor, often used in cooking"
+    },
+    {
+      "image": "../assets/foods/Orange.png",
+      "name": "Orange",
+      "hint": "A sweet, orange-colored citrus fruit"
+    },
+    {
+      "image": "../assets/foods/Paprika_Red.png",
+      "name": "Red Paprika",
+      "hint": "A red bell pepper, often used in cooking"
+    },
+    {
+      "image": "../assets/foods/Pear.png",
+      "name": "Pear",
+      "hint": "A sweet fruit with a rounded body and a tapering top"
+    },
+    {
+      "image": "../assets/foods/Pineapple.png",
+      "name": "Pineapple",
+      "hint": "A tropical fruit with a spiky exterior and sweet interior"
+    },
+    {
+      "image": "../assets/foods/Plum.png",
+      "name": "Plum",
+      "hint": "A small, round fruit with smooth skin and a pit"
+    },
+    {
+      "image": "../assets/foods/Potato.png",
+      "name": "Potato",
+      "hint": "A starchy vegetable often used in cooking"
+    },
+    {
+      "image": "../assets/foods/Pumpkin.png",
+      "name": "Pumpkin",
+      "hint": "A large, orange squash often used in pies"
+    },
+    {
+      "image": "../assets/foods/Raspberry.png",
+      "name": "Raspberry",
+      "hint": "A small, red fruit with a sweet-tart flavor"
+    },
+    {
+      "image": "../assets/foods/Strawberry.png",
+      "name": "Strawberry",
+      "hint": "A red, heart-shaped fruit with tiny seeds on the outside"
+    },
+    {
+      "image": "../assets/foods/Tomato.png",
+      "name": "Tomato",
+      "hint": "A red, juicy fruit often used in cooking"
+    },
+    {
+      "image": "../assets/foods/Watermelon.png",
+      "name": "Watermelon",
+      "hint": "A large, green fruit with a juicy, red interior"
+    }
+  ]
+  
