@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react';
-import { View, TouchableOpacity, Text, Modal } from 'react-native';
+import { View, TouchableOpacity, Text, Modal , Image, ImageBackground  } from 'react-native';
 import Svg, { Circle, ClipPath, Defs, G, Path } from 'react-native-svg';
 
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
@@ -88,8 +88,19 @@ const CircleSpinner: React.FC = () => {
   const YourModalComponent: React.FC<{ winningColor: string | null; onClose: () => void; }> = ({ winningColor, onClose }) => {
     console.log('Modal winningColor:', winningColor);
     return (
-      <Modal animationType="slide" visible={true} onRequestClose={onClose} style={{ flex: 0 }}>
-        <View style={{ marginTop: '70%', justifyContent: 'center', alignItems: 'center', height: 200, width: '100%', backgroundColor: '#000' }}>
+      <Modal animationType="slide" transparent={true} visible={true} onRequestClose={onClose}>
+        <View style={{ 
+          justifyContent: 'center', 
+          alignItems: 'center', 
+          backgroundColor: '#ccc',
+          // Adjust height and width as needed (e.g., 200px height, 300px width)
+          height: 200,
+          width: 300,
+          // Position the modal using properties like top, bottom, left, right
+          alignSelf: 'center', // Center the modal horizontally
+          marginTop: '80%', // Position the modal vertically (adjust as needed)
+          borderRadius: 5,
+        }}>
           <Text style={{ fontSize: 32, fontWeight: 'bold', color: winningColor ? winningColor : '#000' }}>
             You Won: {winningColor}!
           </Text>
@@ -102,10 +113,18 @@ const CircleSpinner: React.FC = () => {
   };
 
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#f0f0f0' }}>
-      <Text style={{ marginBottom: 50, fontSize: 36, fontWeight: 'bold' }}>Spin The Wheel</Text>
+    <ImageBackground
+    source={require('../assets/spinthewheel/Background.png')}
+    style={{ width: '100%', height: '100%' }}
+  >
+    <View style={{
+       flex: 1, 
+       justifyContent: 'center', 
+       alignItems: 'center',  }}>
+      <Text style={{ marginBottom: 50, fontSize: 36, fontWeight: 'bold' , color: '#fff'}}>Spin The Wheel</Text>
+      
       <Svg width={300} height={300} viewBox="0 0 300 300">
-        <Path d="M 150 0 L 160 20 L 140 20 Z" fill="black" transform="rotate(180 150 10)" />
+        {/* <Path d="M 150 0 L 160 20 L 140 20 Z" fill="black" transform="rotate(180 150 10)" /> */}
         <Defs>
           <ClipPath id="circleClip">
             <Circle cx="150" cy="150" r="125" />
@@ -117,6 +136,10 @@ const CircleSpinner: React.FC = () => {
         {/* Circle outline without clip path */}
         <Circle cx="150" cy="150" r="125" fill="transparent" strokeWidth={2} stroke="black" />
       </Svg>
+      <Image
+          source={require('../assets/spinthewheel/frame and pointer.png')} // Replace with your image path
+          style={{ width: 300, height: 383, position: 'absolute', top: '32%'}} // Center the image
+        />
       <TouchableOpacity onPress={handleSpin} style={{ marginTop: 20, backgroundColor: '#007bff', padding: 10, borderRadius: 5 }}>
       <Text style={{ color: 'white' }}>{isSpinning ? 'Spinning...' : 'SPIN'}</Text>
       </TouchableOpacity>
@@ -124,6 +147,7 @@ const CircleSpinner: React.FC = () => {
         <YourModalComponent winningColor={winningColor} onClose={() => setIsModalVisible(false)} />
       )}
     </View>
+    </ImageBackground>
   );
 };
 
