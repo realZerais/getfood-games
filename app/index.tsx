@@ -3,6 +3,9 @@ import { ScrollView, Text, View } from 'react-native';
 import { GameCard } from './components/GameCard';
 import { Stack } from 'expo-router';
 
+export { default as Hangman } from './hangman/index';
+export { default as MemoryMatch } from './MemoryMatch';
+
 export default function HomeScreen() {
   return (
     <>

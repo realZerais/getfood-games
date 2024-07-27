@@ -5,6 +5,12 @@
         "buildType": "apk"
       }
     },
+    
+    "test": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
 
     "preview": {
       "android": {

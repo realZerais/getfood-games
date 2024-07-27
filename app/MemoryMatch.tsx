@@ -29,7 +29,7 @@ const shuffleArray = (array: any[]) => {
   return array;
 };
 
-const GameScreen: React.FC = () => {
+const  MemoryMatch: React.FC = () => {
   const [cards, setCards] = useState<Vegetable[]>([]);
   const [flippedCards, setFlippedCards] = useState<number[]>([]);
   const [matchedCards, setMatchedCards] = useState<string[]>([]);
@@ -157,4 +157,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default GameScreen;
+export default MemoryMatch;

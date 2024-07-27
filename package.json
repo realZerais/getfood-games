@@ -2,6 +2,10 @@
   "name": "getfoodgames",
   "main": "expo-router/entry",
   "version": "1.0.0",
+  "exports": {
+    "./app/MemoryMatch": "./app/MemoryMatch.tsx",
+    "./app/CircleSpinner": "./app/SpinTheWheel.tsx"
+  },
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",

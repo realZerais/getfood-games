@@ -5,7 +5,7 @@ import { StatusBar } from 'expo-status-bar';
 
 type Level = 'easy' | 'medium' | 'hard';
 
-const Game: React.FC = () => {
+const GuessingGame: React.FC = () => {
   const [randomNumber, setRandomNumber] = useState<number>(0);
   const [attempts, setAttempts] = useState<number>(0);
   const [maxAttempts, setMaxAttempts] = useState<number>(0);
@@ -102,4 +102,4 @@ const Game: React.FC = () => {
   );
 };
 
-export default Game;
+export default GuessingGame;
